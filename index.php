@@ -26,7 +26,7 @@ $serverIp = gethostbyname(gethostname());
 
         <p>Servidor que responde: nginx</p>
 
-        <h2>Cabeceras HTTP:</h2>
+        <h2>Listado de cabeceras HTTP:</h2>
         <pre id="headers"><?php echo $headersText; ?></pre>
     </div>
 
